@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>BS - Date Snippets</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdlf</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Last Friday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:00:57Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T13:58:53Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Fri'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v-7d "+%Y-%m-%d")
+else
+  VAR=$(date -v-"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>8276DF1A-E703-457B-B031-87541C7ED351</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdlm</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Last Monday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:01:30Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T13:59:01Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Mon'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v-7d "+%Y-%m-%d")
+else
+  VAR=$(date -v-"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>AB68193D-CFA1-42AA-814A-841CD1798D10</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdltu</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Last Tuesday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:00:47Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T13:59:06Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Tue'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v-7d "+%Y-%m-%d")
+else
+  VAR=$(date -v-"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>C8511DFC-1817-413D-8CF4-6E304611897B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdlw</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Last Wednesday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:00:50Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T13:59:11Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Wed'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v-7d "+%Y-%m-%d")
+else
+  VAR=$(date -v-"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>97CCD4D2-3751-4EA7-AA8A-765FA17C69A2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdlth</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Last Thursday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:00:55Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T13:59:15Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Thu'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v-7d "+%Y-%m-%d")
+else
+  VAR=$(date -v-"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>77F4D15B-59D0-4C00-8EBD-D09F51923F48</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdlsa</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Last Saturday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:01:25Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T13:59:26Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Sat'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v-7d "+%Y-%m-%d")
+else
+  VAR=$(date -v-"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>918B25B6-368E-4A03-97BC-C4A468784CDD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdlsu</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Last Sunday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:01:28Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T13:59:37Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Sun'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v-7d "+%Y-%m-%d")
+else
+  VAR=$(date -v-"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>FEDA67B6-AB3A-47AC-A8F6-952BD561571D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdnf</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Next Friday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:03:13Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:02:22Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Fri'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v+7d "+%Y-%m-%d")
+else
+  VAR=$(date -v+"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>C7E29545-4435-4794-BEEE-6CB8827C514A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdnm</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Next Monday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:03:21Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:02:27Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Mon'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v+7d "+%Y-%m-%d")
+else
+  VAR=$(date -v+"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>A6E870CB-D434-45FA-8CEA-2308B9F58756</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdntu</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Next Tuesday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:03:24Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:02:32Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Tue'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v+7d "+%Y-%m-%d")
+else
+  VAR=$(date -v+"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>F586CEED-72E3-4074-9F62-7499ADF1DD38</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdnw</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Next Wednesday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:03:05Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:02:37Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Wed'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v+7d "+%Y-%m-%d")
+else
+  VAR=$(date -v+"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>58799EEC-C576-4849-ACFD-6E09E5EF1593</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdnth</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Next Thursday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:03:08Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:02:43Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Thu'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v+7d "+%Y-%m-%d")
+else
+  VAR=$(date -v+"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>393B56A7-EECB-4138-9214-120E2B855344</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdnsa</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Next Saturday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:03:16Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:02:49Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Sat'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v+7d "+%Y-%m-%d")
+else
+  VAR=$(date -v+"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>4711B885-C64F-43F4-8677-63D62A581DC9</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdnsu</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-04-14T00:36:07Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Next Sunday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:03:19Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:06:22Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+day='Sun'
+today=`date "+%a"`
+
+if [ "$today" == "$day" ] 
+then
+  VAR=$(date -v+7d "+%Y-%m-%d")
+else
+  VAR=$(date -v+"$day" "+%Y-%m-%d")
+fi
+
+echo -n $VAR</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>64DB10C3-98B7-4BC5-8B06-A2E899DDDCCD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>d--</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-02-19T05:58:20Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Yesterday</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:07:33Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:20:41Z</date>
+			<key>plainText</key>
+			<string>%@-1D%Y-%m-%d</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>110</integer>
+			<key>uuidString</key>
+			<string>C51230D0-02C0-4801-9DA1-6DDD8FD9F7ED</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>d++</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-02-19T05:58:20Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Tomorrow</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:06:01Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:20:53Z</date>
+			<key>plainText</key>
+			<string>%@+1D%Y-%m-%d</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>16</integer>
+			<key>uuidString</key>
+			<string>9C78CF73-21A0-4631-8390-9C12B815BAC6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xds</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2012-03-18T19:13:21Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Today</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:06:41Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:19:36Z</date>
+			<key>plainText</key>
+			<string>%Y-%m-%d</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1691</integer>
+			<key>uuidString</key>
+			<string>D5A16241-C38B-4CA9-A799-6A06194C9F98</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>xdts</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2012-03-18T19:13:21Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Today w/ Time</string>
+			<key>lastUsed</key>
+			<date>2014-08-26T14:09:10Z</date>
+			<key>modificationDate</key>
+			<date>2014-08-26T14:21:05Z</date>
+			<key>plainText</key>
+			<string>%Y-%m-%d %H.%M.%S</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>525</integer>
+			<key>uuidString</key>
+			<string>73B9CB88-EA5B-409D-8E4A-186087F8E51D</string>
+		</dict>
+	</array>
+</dict>
+</plist>
