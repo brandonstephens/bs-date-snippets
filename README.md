@@ -10,3 +10,7 @@ TextExpander Date Snippets
 4. Choose `Add Group from File…`
 5. Select the `.textexpander` from the downloaded project.
 6. Enjoy.
+
+## Details on Usage
+
+<https://bsteph.com/2014/08/textexpander-date-snippets/>
